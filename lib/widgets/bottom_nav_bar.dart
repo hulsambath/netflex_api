@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_clone/screens/homescreen.dart';
-import 'package:netflix_clone/screens/news_and_hot.dart';
-import 'package:netflix_clone/screens/search_screen.dart';
+import 'package:netflex_api/screens/homescreen.dart';
+import 'package:netflex_api/screens/news_and_hot.dart';
+import 'package:netflex_api/screens/search_screen.dart';
 
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({super.key});

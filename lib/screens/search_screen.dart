@@ -1,11 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:netflix_clone/common/utils.dart';
-import 'package:netflix_clone/models/movie_recommendation_mode.dart';
-import 'package:netflix_clone/models/search_model.dart';
-import 'package:netflix_clone/screens/movie_detailed_screen.dart';
-import 'package:netflix_clone/services/api_services.dart';
+import 'package:netflex_api/common/utils.dart';
+import 'package:netflex_api/models/movie_recommendation_mode.dart';
+import 'package:netflex_api/models/search_model.dart';
+import 'package:netflex_api/screens/movie_detailed_screen.dart';
+import 'package:netflex_api/services/api_services.dart';
 
 class SearchScreen extends StatefulWidget {
   const SearchScreen({super.key});

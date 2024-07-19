@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_clone/widgets/coming_soon_movie_widget.dart';
 
 class MoreScreen extends StatefulWidget {
   const MoreScreen({super.key});
@@ -66,7 +65,7 @@ class _MoreScreenState extends State<MoreScreen> {
               ],
             ),
           ),
-          body: const TabBarView(children: [
+          body: TabBarView(children: [
             SingleChildScrollView(
               child: Column(
                 children: [
@@ -111,4 +110,11 @@ class _MoreScreenState extends State<MoreScreen> {
       ),
     );
   }
+
+  ComingSoonMovieWidget(
+      {required String imageUrl,
+      required String overview,
+      required String logoUrl,
+      required String month,
+      required String day}) {}
 }
